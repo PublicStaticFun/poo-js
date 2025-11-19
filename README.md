@@ -1,3 +1,4 @@
+![Imagen del banner](https://github.com/PublicStaticFun/poo-js/blob/main/Images/Portada5.png?raw=true)
 # Sistema de Gestión de Librería Digital en JavaScript
 
 Este proyecto es un **ejemplo avanzado de Programación Orientada a Objetos (POO) en JavaScript**, que simula la gestión de libros y usuarios en una librería digital. Está diseñado para demostrar conceptos como **herencia, encapsulación, polimorfismo y métodos estáticos**.
@@ -20,6 +21,8 @@ Este proyecto es un **ejemplo avanzado de Programación Orientada a Objetos (POO
 
 ## Clases utilizadas
 
+![Clase Libro](https://github.com/PublicStaticFun/poo-js/blob/main/Images/classLibro.png?raw=true)
+
 ### 1. `Libro`
 Representa un libro físico en la librería.
 
@@ -35,6 +38,7 @@ Representa un libro físico en la librería.
 - `info()` → Devuelve un string con título, autor y disponibilidad.
 - Getters para `isbn` y `disponible`.
 
+![Clase Libro](https://github.com/PublicStaticFun/poo-js/blob/main/Images/classLibroDigital.png?raw=true)
 
 ### 2. `LibroDigital` (hereda de `Libro`)
 Representa un libro en formato digital.
@@ -45,6 +49,7 @@ Representa un libro en formato digital.
 **Polimorfismo:**
 - Sobrescribe `info()` para incluir el formato del libro digital.
 
+![Clase Usuario](https://github.com/PublicStaticFun/poo-js/blob/main/Images/classUsuario.png?raw=true)
 
 ### 3. `Usuario`
 Representa a un usuario de la librería.
@@ -59,6 +64,7 @@ Representa a un usuario de la librería.
 - `devolverLibro(libro)` → Devuelve un libro y lo elimina de `librosPrestados`.
 - Getter para `librosPrestados`.
 
+![Clase Libro](https://github.com/PublicStaticFun/poo-js/blob/main/Images/classBibliotecario.png?raw=true)
 
 ### 4. `Bibliotecario` (hereda de `Usuario`)
 Usuario con permisos especiales para gestionar el inventario.
@@ -74,4 +80,10 @@ Usuario con permisos especiales para gestionar el inventario.
 - `mostrarInventario()` → Muestra todos los libros con su disponibilidad.
 - `buscarLibroPorTitulo(titulo)` → Busca un libro en el inventario por título.
 
----
+![Clase Libro](https://github.com/PublicStaticFun/poo-js/blob/main/Images/MainClass.png?raw=true)
+
+### 5. `Clase main`
+
+![Clase Libro](https://github.com/PublicStaticFun/poo-js/blob/main/Images/Resultado.png?raw=true)
+
+### 6. `Resultado`
